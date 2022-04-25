@@ -7,8 +7,21 @@ public class TestClass {
         System.out.print(string + " ");
     }
 
-    public static void main(String[] args) {
+    public static int Sum (int operand1, int operand2) {
+        return operand1 + operand2;
+    }
+
+    public static int Dif ( int operand1, int operand2) {
+        return operand1 - operand2;
+    }
+
+    public static void main (String[] args) {
         printStr("Hi");
         printlnStr("Anna!");
+
+        System.out.println(Sum(23,2));
+        System.out.println(Dif(25,3));
+
+
     }
 }
